@@ -1,0 +1,301 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("../fonts/flaticon.ttf?6f6fb07fb466006e96471dfa2f655bee") format("truetype"),
+url("../fonts/flaticon.woff?6f6fb07fb466006e96471dfa2f655bee") format("woff"),
+url("../fonts/flaticon.woff2?6f6fb07fb466006e96471dfa2f655bee") format("woff2"),
+url("../fonts/flaticon.eot?6f6fb07fb466006e96471dfa2f655bee#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?6f6fb07fb466006e96471dfa2f655bee#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bar-graph": "\f101",
+    "graph": "\f102",
+    "calendar": "\f103",
+    "credit-card": "\f104",
+    "speech": "\f105",
+    "charity": "\f106",
+    "presentation": "\f107",
+    "laptop": "\f108",
+    "tax": "\f109",
+    "abacus": "\f10a",
+    "atm": "\f10b",
+    "hammer": "\f10c",
+    "portfolio": "\f10d",
+    "balance": "\f10e",
+    "bank": "\f10f",
+    "money": "\f110",
+    "checklist": "\f111",
+    "businessman": "\f112",
+    "safe": "\f113",
+    "diamond": "\f114",
+    "calculator": "\f115",
+    "earning": "\f116",
+    "file": "\f117",
+    "payment-check": "\f118",
+    "euro-coin": "\f119",
+    "money-1": "\f11a",
+    "exchange": "\f11b",
+    "money-exchange": "\f11c",
+    "salary": "\f11d",
+    "dollar-coin": "\f11e",
+    "hourglass": "\f11f",
+    "gold-ingots": "\f120",
+    "gold-ingots-1": "\f121",
+    "tv-monitor": "\f122",
+    "sprout": "\f123",
+    "plant": "\f124",
+    "plant-1": "\f125",
+    "light-bulb": "\f126",
+    "medical-insurance": "\f127",
+    "insurance": "\f128",
+    "time": "\f129",
+    "money-bag": "\f12a",
+    "piggy-bank": "\f12b",
+    "mobile-banking": "\f12c",
+    "rocket": "\f12d",
+    "shirt": "\f12e",
+    "recommendation": "\f12f",
+    "wallet": "\f130",
+    "edc": "\f131",
+    "call": "\f132",
+    "call-1": "\f133",
+    "email": "\f134",
+    "pin": "\f135",
+    "right-arrow": "\f136",
+    "email-1": "\f137",
+    "location": "\f138",
+    "phone-call": "\f139",
+    "headphones": "\f13a",
+    "blocks-with-angled-cuts": "\f13b",
+    "left-quote": "\f13c",
+    "right-quote": "\f13d",
+    "phone-call-1": "\f13e",
+    "analyst": "\f13f",
+    "businessman-1": "\f140",
+    "solution": "\f141",
+    "solution-1": "\f142",
+    "multiple-users": "\f143",
+    "users": "\f144",
+    "analytics": "\f145",
+);
+
+.flaticon-bar-graph:before {
+    content: map-get($flaticon-map, "bar-graph");
+}
+.flaticon-graph:before {
+    content: map-get($flaticon-map, "graph");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-speech:before {
+    content: map-get($flaticon-map, "speech");
+}
+.flaticon-charity:before {
+    content: map-get($flaticon-map, "charity");
+}
+.flaticon-presentation:before {
+    content: map-get($flaticon-map, "presentation");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-tax:before {
+    content: map-get($flaticon-map, "tax");
+}
+.flaticon-abacus:before {
+    content: map-get($flaticon-map, "abacus");
+}
+.flaticon-atm:before {
+    content: map-get($flaticon-map, "atm");
+}
+.flaticon-hammer:before {
+    content: map-get($flaticon-map, "hammer");
+}
+.flaticon-portfolio:before {
+    content: map-get($flaticon-map, "portfolio");
+}
+.flaticon-balance:before {
+    content: map-get($flaticon-map, "balance");
+}
+.flaticon-bank:before {
+    content: map-get($flaticon-map, "bank");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon-map, "checklist");
+}
+.flaticon-businessman:before {
+    content: map-get($flaticon-map, "businessman");
+}
+.flaticon-safe:before {
+    content: map-get($flaticon-map, "safe");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-calculator:before {
+    content: map-get($flaticon-map, "calculator");
+}
+.flaticon-earning:before {
+    content: map-get($flaticon-map, "earning");
+}
+.flaticon-file:before {
+    content: map-get($flaticon-map, "file");
+}
+.flaticon-payment-check:before {
+    content: map-get($flaticon-map, "payment-check");
+}
+.flaticon-euro-coin:before {
+    content: map-get($flaticon-map, "euro-coin");
+}
+.flaticon-money-1:before {
+    content: map-get($flaticon-map, "money-1");
+}
+.flaticon-exchange:before {
+    content: map-get($flaticon-map, "exchange");
+}
+.flaticon-money-exchange:before {
+    content: map-get($flaticon-map, "money-exchange");
+}
+.flaticon-salary:before {
+    content: map-get($flaticon-map, "salary");
+}
+.flaticon-dollar-coin:before {
+    content: map-get($flaticon-map, "dollar-coin");
+}
+.flaticon-hourglass:before {
+    content: map-get($flaticon-map, "hourglass");
+}
+.flaticon-gold-ingots:before {
+    content: map-get($flaticon-map, "gold-ingots");
+}
+.flaticon-gold-ingots-1:before {
+    content: map-get($flaticon-map, "gold-ingots-1");
+}
+.flaticon-tv-monitor:before {
+    content: map-get($flaticon-map, "tv-monitor");
+}
+.flaticon-sprout:before {
+    content: map-get($flaticon-map, "sprout");
+}
+.flaticon-plant:before {
+    content: map-get($flaticon-map, "plant");
+}
+.flaticon-plant-1:before {
+    content: map-get($flaticon-map, "plant-1");
+}
+.flaticon-light-bulb:before {
+    content: map-get($flaticon-map, "light-bulb");
+}
+.flaticon-medical-insurance:before {
+    content: map-get($flaticon-map, "medical-insurance");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-time:before {
+    content: map-get($flaticon-map, "time");
+}
+.flaticon-money-bag:before {
+    content: map-get($flaticon-map, "money-bag");
+}
+.flaticon-piggy-bank:before {
+    content: map-get($flaticon-map, "piggy-bank");
+}
+.flaticon-mobile-banking:before {
+    content: map-get($flaticon-map, "mobile-banking");
+}
+.flaticon-rocket:before {
+    content: map-get($flaticon-map, "rocket");
+}
+.flaticon-shirt:before {
+    content: map-get($flaticon-map, "shirt");
+}
+.flaticon-recommendation:before {
+    content: map-get($flaticon-map, "recommendation");
+}
+.flaticon-wallet:before {
+    content: map-get($flaticon-map, "wallet");
+}
+.flaticon-edc:before {
+    content: map-get($flaticon-map, "edc");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-call-1:before {
+    content: map-get($flaticon-map, "call-1");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon-map, "email-1");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-headphones:before {
+    content: map-get($flaticon-map, "headphones");
+}
+.flaticon-blocks-with-angled-cuts:before {
+    content: map-get($flaticon-map, "blocks-with-angled-cuts");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-phone-call-1:before {
+    content: map-get($flaticon-map, "phone-call-1");
+}
+.flaticon-analyst:before {
+    content: map-get($flaticon-map, "analyst");
+}
+.flaticon-businessman-1:before {
+    content: map-get($flaticon-map, "businessman-1");
+}
+.flaticon-solution:before {
+    content: map-get($flaticon-map, "solution");
+}
+.flaticon-solution-1:before {
+    content: map-get($flaticon-map, "solution-1");
+}
+.flaticon-multiple-users:before {
+    content: map-get($flaticon-map, "multiple-users");
+}
+.flaticon-users:before {
+    content: map-get($flaticon-map, "users");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
